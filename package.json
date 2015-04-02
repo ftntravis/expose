@@ -2,7 +2,7 @@
   "name": "expose-modal",
   "version": "0.1.0",
   "description": "Dependency free javascript modal plugin.",
-  "main": "index.js",
+  "main": "expose.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,7 +22,9 @@
   },
   "homepage": "https://github.com/souporserious/expose-modal",
   "devDependencies": {
+    "chai": "^2.2.0",
     "gulp": "^3.8.11",
-    "gulp-babel": "^4.0.1"
+    "gulp-babel": "^4.0.1",
+    "mocha": "^2.2.1"
   }
 }
